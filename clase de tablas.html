@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Clase de Tablas</title>
+    <link rel="icon" href="./icono.png" type="image/png" sizes="16x16">
+
+    <style>
+        table {
+            border: 5px solid black;
+            margin: 0 auto;
+        }
+
+        th {
+            border: 1px solid black;
+        }
+
+        td {
+            border: 1px solid red;
+            text-align: center;
+        }
+
+        div {
+            text-align: center;
+        }
+
+        section {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <img class="image" src="imagen de practica.jpg" alt="no load" />
+    </div>
+    <header style="text-align: center;"><strong>CLASE DE EJERCICOS LIBRES</strong></header>
+    <br>
+    <table id="clasedetablas" class="classtable">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>juan</td>
+                <td>Perez</td>
+                <td>25</td>
+            </tr>
+
+            <tr>
+                <td>Maria</td>
+                <td>Garcia</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Pedro</td>
+                <td>Lopez</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <td>Martinez</td>
+                <td>32</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">Total de personas: 4</td>
+                <td>83</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <form action="">
+        <fieldset>
+            <legend><strong>DATOS PERSONALES</strong></legend>
+            <label for="Name">Nombre</label>
+            <input type="text" id="name" name="Name" required>
+            <br>
+            <label for="Apellido">Apellido</label>
+            <input type="text" id="Apellido" name="Apellido" required>
+            <br>
+            <label for="Edad">Edad</label>
+            <input type="number" id="age" name="age" min="18" max="30" required>
+            <br>
+            <label for="birthdate">Fecha de nacimiento</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+            <br>
+            <label for="mail">Correo Electronico</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="phone">Telefono</label>
+            <input type="tel" id="phone" name="phone" required>
+        </fieldset>
+        <fieldset>
+            <legend><strong>GUSTOS</strong></legend>
+            <Label for="color">Color Favorito</Label>
+            <input type="Color" id="color" name="color">
+            <br>
+            <label for="music">Te Gusta la musica</label>
+            <input type="checkbox" id="si" name="music">
+            <br>
+            <label for="cine">Te gusta el cine?</label>
+            <input type="radio" id="si" name="cine" value="si"><label for="si">si</label>
+            <input type="radio" id="no" name="cine" value="no"><label for="no">no</label>
+            <br>
+            <label for="os">que sietma operativo te gusta</label>
+            <select name="os" name="os">
+                <option value="windows">windows</option>
+                <option value="Mac">Mac</option>
+                <option value="Linux">Linux</option>
+            </select>
+            <br>
+            <label for="hobbies">Hobbies</label>
+            <textarea name="hobbies" id="hobbies"></textarea>
+        </fieldset>
+        <br>
+        <button> Guardar</button>
+        <br>
+        <h2 style="text-align: center;">terminos y Condiciones</h2>
+        <p style="text-align: center;">* Sujeto a verificion del administrador, ver video!</p>
+        <br>
+    </form>
+    <section style="video">
+        <video src="videos/mov_bbb.mp4" controls></video>
+    </section>
+    <br>
+    <section>
+        <div>
+            <img src="imagen de loco.jpg" class="images" alt="no load" />
+        </div>
+    </section>
+    <section>
+        <h1 style="text-align: center;">DISCLEIMER</h1>
+        <p>
+            <strong><span style="color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veniam
+                    sit alias
+                    veritatis optio, aspernatur quisquam ipsam tempore itaque mollitia quia placeat illum.
+                    Ullam nostrum iusto accusantium quas officiis vel?</span></strong>
+        </p>
+        <p>
+            <strong><span style="color: green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veniam
+                    sit alias
+                    veritatis optio, aspernatur quisquam ipsam tempore itaque mollitia quia placeat illum.
+                    Ullam nostrum iusto accusantium quas officiis vel?</span></strong> </p>
+        <p>
+            <strong>
+                <span style="color: red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veniam sit
+                    alias
+                    veritatis optio, aspernatur quisquam ipsam tempore itaque mollitia quia placeat illum.
+                    Ullam nostrum iusto accusantium quas officiis vel?</span>
+            </strong>
+        </p>
+    </section>
+    <br>
+    <section>
+        <a href="http://127.0.0.1:5500/Acerca%20de%20Mi.html"> Visitanos en</a>
+    </section>
+    <br>
+</body>
+
+</html>

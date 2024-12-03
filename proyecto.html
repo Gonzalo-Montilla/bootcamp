@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Página Avanzada</title>
+    <style>
+        :root {
+            --main-bg-color: #f0f0f0;
+            --main-color: #333;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--main-bg-color);
+            color: var(--main-color);
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            color: white;
+        }
+
+        .item {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background-color: black;
+            transition: transform 0.3s;
+        }
+
+        .item:hover {
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .item {
+                margin: 5px 0;
+            }
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+        table {
+            align-self: start;
+        }
+            
+
+    </style>
+</head>
+<body>
+    <h1 class="PaginaAvanzada">Página Avanzada</h1>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <div>
+        <p class="lorem">
+            <strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae repellat aliquid ipsam, 
+                corrupti officia doloribus perspiciatis esse pariatur at minus, labore atque dolorem asperiores 
+                illum error? Amet ipsa accusamus facilis?</strong>
+        </p>
+        <table class="tabla">
+            <tr>
+                <th>Tamaño</th>
+                <th>Peso</th>
+                <th>Referencia</th>
+            </tr>
+            <tr>
+                <td>Contenido 1</td>
+                <td>Contenido 2</td>
+                <td>Contenido 3</td>
+            </tr>
+            <tr>
+                <td>Contenido 4</td>
+                <td>Contenido 5</td>
+                <td>Contenido 6</td>
+            </tr>
+            <tr>
+                <td>Contenido 7</td>
+                <td>Contenido 8</td>
+                <td>Contenido 9</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

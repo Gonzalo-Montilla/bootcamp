@@ -1,0 +1,118 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+header,
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    padding: 2em;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.contenido {
+    text-align: center;
+}
+
+button {
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.beneficios {
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+.beneficios h2 {
+    text-align: center;
+}
+
+.galeria {
+    margin-bottom: 2em;
+}
+
+.galeria .imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.contacto {
+    text-align: left;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.contacto label {
+    margin-top: 1em;
+}
+
+.contacto input,
+.contacto textarea {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto button {
+    width: fit-content;
+    align-self: center;
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background-color: #555;
+}
+h1 {
+    text-align: center;
+}
